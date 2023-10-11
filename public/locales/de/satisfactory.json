@@ -1,0 +1,9 @@
+{
+  "title": "Befriedigend",
+  "nested_test": {
+    "nested_key": "Verschachtelter Wert"
+  },
+  "products": "Produkte",
+  "product_details": "Produktdetails",
+  "games": "Spiele"
+}

@@ -1,0 +1,214 @@
+{
+  "Desc_Coal_C": {
+    "itemClass": "Desc_Coal_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 6,
+      "normal": 29,
+      "pure": 15
+    },
+    "maxExtraction": 30900,
+    "pingColor": {
+      "r": 12,
+      "g": 12,
+      "b": 12
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_OreCopper_C": {
+    "itemClass": "Desc_OreCopper_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 9,
+      "normal": 28,
+      "pure": 12
+    },
+    "maxExtraction": 28860,
+    "pingColor": {
+      "r": 13,
+      "g": 128,
+      "b": 38
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_OreGold_C": {
+    "itemClass": "Desc_OreGold_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 0,
+      "normal": 8,
+      "pure": 8
+    },
+    "maxExtraction": 11040,
+    "pingColor": {
+      "r": 255,
+      "g": 159,
+      "b": 0
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_OreIron_C": {
+    "itemClass": "Desc_OreIron_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 33,
+      "normal": 41,
+      "pure": 46
+    },
+    "maxExtraction": 70380,
+    "pingColor": {
+      "r": 117,
+      "g": 74,
+      "b": 62
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_RawQuartz_C": {
+    "itemClass": "Desc_RawQuartz_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 0,
+      "normal": 11,
+      "pure": 5
+    },
+    "maxExtraction": 10500,
+    "pingColor": {
+      "r": 251,
+      "g": 255,
+      "b": 195
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_Stone_C": {
+    "itemClass": "Desc_Stone_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 12,
+      "normal": 47,
+      "pure": 27
+    },
+    "maxExtraction": 52860,
+    "pingColor": {
+      "r": 62,
+      "g": 81,
+      "b": 106
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_Sulfur_C": {
+    "itemClass": "Desc_Sulfur_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 1,
+      "normal": 7,
+      "pure": 3
+    },
+    "maxExtraction": 6840,
+    "pingColor": {
+      "r": 255,
+      "g": 244,
+      "b": 66
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_LiquidOil_C": {
+    "itemClass": "Desc_LiquidOil_C",
+    "form": "RF_LIQUID",
+    "nodes": {
+      "impure": 10,
+      "normal": 12,
+      "pure": 8
+    },
+    "resourceWells": {
+      "impure": 6,
+      "normal": 3,
+      "pure": 3,
+      "wells": 2
+    },
+    "maxExtraction": 11700,
+    "pingColor": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_NitrogenGas_C": {
+    "itemClass": "Desc_NitrogenGas_C",
+    "form": "RF_GAS",
+    "resourceWells": {
+      "impure": 2,
+      "normal": 7,
+      "pure": 36,
+      "wells": 6
+    },
+    "maxExtraction": 12000,
+    "pingColor": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_Water_C": {
+    "itemClass": "Desc_Water_C",
+    "form": "RF_LIQUID",
+    "resourceWells": {
+      "impure": 5,
+      "normal": 8,
+      "pure": 42,
+      "wells": 8
+    },
+    "maxExtraction": null,
+    "pingColor": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_OreBauxite_C": {
+    "itemClass": "Desc_OreBauxite_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 5,
+      "normal": 6,
+      "pure": 6
+    },
+    "maxExtraction": 9780,
+    "pingColor": {
+      "r": 255,
+      "g": 0,
+      "b": 0
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  },
+  "Desc_OreUranium_C": {
+    "itemClass": "Desc_OreUranium_C",
+    "form": "RF_SOLID",
+    "nodes": {
+      "impure": 1,
+      "normal": 3,
+      "pure": 0
+    },
+    "maxExtraction": 2100,
+    "pingColor": {
+      "r": 0,
+      "g": 255,
+      "b": 10
+    },
+    "collectionSpeed": 1,
+    "event": "NONE"
+  }
+}

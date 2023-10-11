@@ -1,0 +1,362 @@
+[
+    {
+        "rating": "S",
+        "name": "Copper Alloy Ingot",
+        "score": "99.6",
+        "notes": "A must have. Trading iron for copper is always good, even though it requires a Foundry. It cuts overall item count, dramatically reduces buildings (>13% of the whole production chain) and slightly reduces power use."
+    },
+    {
+        "rating": "S",
+        "name": "Super-State Computer",
+        "score": "99.5",
+        "notes": "Huge reduction of items, buildings, and power overall. Adds Sulfur and Bauxite to save on Caterium and Quartz. Can be used to cut Plastic from the production chain. Batteries can't be cut due to the Magnetic Field Generators."
+    },
+    {
+        "rating": "S",
+        "name": "Heavy Encased Frame",
+        "score": "99.4",
+        "notes": "Simply overpowered. Cuts raw resource use across the board. Dramatically reduces items (>10%), buildings, and power usage. Can be used to cut Screws from the production chain."
+    },
+    {
+        "rating": "S",
+        "name": "Fused Wire",
+        "score": "99.1",
+        "notes": "It absolutely blows the other options out of the water when it comes to cutting down on items (>8%), buildings (>15%), and power. Even when this is the only alternate that uses an Assembler, it still dominates. It uses Caterium, but pairs well with Fused Quickwire and Copper Alloy Ingot. Copper is also very hard to come by in end-game after Update 4, so this is where you use that Caterium."
+    },
+    {
+        "rating": "S",
+        "name": "Silicon Circuit Board",
+        "score": "98.7",
+        "notes": "This shouldn't be a surprise to most people. This is where the Quartz gets put to good use. It will reduce overall item count, building count, and a good amount of power use (>6%). Caterium Circuit Board scores well too, but this one can be used to cut Plastic from the production chain."
+    },
+    {
+        "rating": "S",
+        "name": "Solid Steel Ingot",
+        "score": "97.1",
+        "notes": "Everybody knows this one. Reduce overall coal (>28%) and iron (>16%) use at the same time. Reduces overall buildings (6.5%). Massively reduces overall power (9.4%)."
+    },
+    {
+        "rating": "S",
+        "name": "Caterium Computer",
+        "score": "96.7",
+        "notes": "This trades blows with Crystal Computer. Both reduce overall items, buildings, and power. Caterium does them all better. Uses more Caterium, but reduces Quartz. Many prefer Crystal Computer, because it uses an Assembler instead of a Manufacturer. This edges it out due to saving an additional 2% item count, 6% building count, and 4% power use. There are other better recipes for Quartz. This also can cut Plastic, Screws, and Crystal Oscillators out of the production chain!"
+    },
+    {
+        "rating": "A",
+        "name": "Caterium Circuit Board",
+        "score": "92.7",
+        "notes": "Nearly as good as Silicone Circuit Board. It even beats it very slightly on overall items and buildings, but ends up using more power. This uses more Caterium, but saves on Quartz. The main drawback Plastic still has to be brought in to the production chain and Oil use goes up."
+    },
+    {
+        "rating": "A",
+        "name": "Automated Speed Wiring",
+        "score": "92.7",
+        "notes": "This is a major trade-off. Drop 10.4% of all your items, 15.4% of all your buildings, but you basically double your Caterium use. Min-maxers won't touch this. The Copper savings isn't even considered when they use Iron Wire. However, for general use, this recipe is great. It can be used to cut Cable from the production chain as well."
+    },
+    {
+        "rating": "A",
+        "name": "Silicon High-Speed Connector",
+        "score": "90.2",
+        "notes": "Reduces overall items, buildings, and power. You spend more Quartz to save a lot of Caterium. It ends up being a good enough ratio to be a an easy choice. Can be used to cut Cable from the production chain."
+    },
+    {
+        "rating": "A",
+        "name": "Adhered Iron Plate",
+        "score": "87.1",
+        "notes": "Most people don't like bringing Rubber in this early in the production chain. The favorite is Stitched Iron Plate. Why is this one ranked higher? When compared to Stitched, this one requires moving fewer items (>3%), building fewer buildings, but takes a tiny bit more power. Copper becomes rare later on, and you're going to bring Rubber at this point for other alternates. Oil isn't a big limiting factor in end-game. This also can be used to cut Screws from the chain."
+    },
+    {
+        "rating": "A",
+        "name": "Insulated Crystal Oscillator",
+        "score": "84.8",
+        "notes": "This is one of the strong ways to reduce Quartz usage. Quartz has some strong recipes, and any way to reduce it makes things better for other products. It uses more Caterium and a good chunk of Oil, but the reason it's ranked so high is that it reduces item count, building count (>7%), and power use. Problem is, it's possible to cut AI Limiters from the production chain, and this keeps it in. No point in getting this recipe if you plan to cut Crystal Oscillators from the production chain."
+    },
+    {
+        "rating": "A",
+        "name": "Stitched Iron Plate",
+        "score": "84.6",
+        "notes": "Adhered Iron Plate is ranked high as well, but many may still prefer to use this one. It will reduce some items, buildings, and power use overall from the original recipe. The Copper use is pretty tough to swallow, but any min-maxer is using Iron Wire anyway. Just like Adhered, this one can be used to cut Screws from the production chain."
+    },
+    {
+        "rating": "A",
+        "name": "Crystal Computer",
+        "score": "82.5",
+        "notes": "This trades blows with Caterium Computer. Both reduce overall items, buildings, and power. Crystal Computer uses a TON more Quartz but less Caterium and Oil. The nice bonus is that it uses an Assembler instead of a Manufacturer. Can be used to cut Plastic from the chain, but prevents Crystal Oscillators from being cut from the chain."
+    },
+    {
+        "rating": "B",
+        "name": "Turbo Pressure Motor",
+        "score": "78.3",
+        "notes": "Reduces every resource except Limestone and a tiny bit of Coal from the original. Compared to Turbo Electric Motor, it still reduces resources but uses more Nitrogen Gas. Nitrogen Gas doesn't have to be as limiting as other resources. It also reduces some items, buildings, and power overall compared to both."
+    },
+    {
+        "rating": "B",
+        "name": "Steeled Frame",
+        "score": "78.0",
+        "notes": "For a little bit more coal, you can reduce item usage, buildings, and power overall. It also helps cut Iron Rods and Screws from the chain."
+    },
+    {
+        "rating": "B",
+        "name": "Electrode - Aluminum Scrap",
+        "score": "76.8",
+        "notes": "It reduces Bauxite and Coal, while very slightly reducing items, buildings, and power. The draw back is pretty big though. Nobody wants to add Petroleum Coke to the production chain for one recipe. It can be worth it for this one."
+    },
+    {
+        "rating": "B",
+        "name": "Encased Industrial Pipe",
+        "score": "76.5",
+        "notes": "This one is actually a no brainer, it just doesn't have the exciting numbers the higher ranked recipes have. Reduces some items, buildings, and a nice amount of power use overall. Cuts down on resource usage across the board, notably Coal. No drawbacks."
+    },
+    {
+        "rating": "B",
+        "name": "Quickwire Cable",
+        "score": "76.1",
+        "notes": "If you can get past the fact that it increases overall Caterium use by nearly 50%, it's actually good. Min-maxers stay away, this is not for you. Anyone else, here is a way to reduce total items moving around the world by a whopping 15.7% and all buildings by 13.5%. It uses more power and Oil, but Copper goes down over 30% when not using Iron Wire. No point in getting this recipe if you plan to cut Cable from the production chain."
+    },
+    {
+        "rating": "C",
+        "name": "Pure Aluminum Ingot",
+        "score": "69.3",
+        "notes": "It's a trade off of more Bauxite for a reduction in Quartz use. Both are hard to balance at end-game. The big advantage here is the fact that you can use a Smelter instead of a Foundry. Then just forget having to balance the Silica with Sloppy Alumina as well."
+    },
+    {
+        "rating": "C",
+        "name": "Steel Rotor",
+        "score": "64.7",
+        "notes": "People love this one, so why so low on this ranking? It has a slight decrease in total items, but has negligible affect on buildings and power. It uses a little more Copper when not using Iron Wire. The big win is that is can cut Screws from the production chain. Highly recommended when paired with the original recipes for Stator and Motor."
+    },
+    {
+        "rating": "C",
+        "name": "Quickwire Stator",
+        "score": "62.4",
+        "notes": "If you can get past the nearly 70% increase in Caterium usage over the whole production chain, it is pretty good. Min-maxers will not consider this one, but look at how it makes life easier. It reduces total items moving around, buildings (4%), and power use overall."
+    },
+    {
+        "rating": "C",
+        "name": "Electromagnetic Connection Rod",
+        "score": "61.6",
+        "notes": "Mostly, it comes down to whether you need Caterium elsewhere or you want to use it here to save peanuts on other resources. The reason it's recommended over the original is because you can use this to cut AI Limiters from the production chain."
+    },
+    {
+        "rating": "C",
+        "name": "Heat-Fused Frame",
+        "score": "60.0",
+        "notes": "Small reduction of item count, building count, and power use overall. The big win is a 17% reduction of Bauxite use overall. The big loss is that it introduces Fuel into your factory. Who has Fuel flowing into their factories? Its out with the Oil Generators and Rubber factories. It's a price the min-maxers will have to pay."
+    },
+    {
+        "rating": "D",
+        "name": "Recycled Plastic/Heavy Oil Residue/Diluted Packaged Fuel/Polymer Resin/Recycled Rubber",
+        "score": "58.7",
+        "notes": "These are highly regarded and reduce Oil use by a ton (even just Recycled Plastic on it's own), but especially when paired with these other recipes. Why ranked so low? For the average player, this adds a lot of extra work when you're only going to use between 15-78% of the worlds Oil without it before maxing out something else. However, for the min-maxer, these recipes are must-haves."
+    },
+    {
+        "rating": "D",
+        "name": "Steel Screw",
+        "score": "57.6",
+        "notes": "Small reduction of overall items, buildings, and power. Uses a little extra coal and iron. It can be used to cut Iron Rods from the production chain. No point in getting this recipe if you plan to cut Screws from the production chain as well."
+    },
+    {
+        "rating": "D",
+        "name": "Electric Motor",
+        "score": "57.3",
+        "notes": "Slightly reduces total items, buildings, and power overall. However, it uses more Caterium in return for less useful resources. It may not be worth losing the nice round numbers that the original recipe gives you. The original recipe scores a (67.0)."
+    },
+    {
+        "rating": "D",
+        "name": "Radio Control System",
+        "score": "56.3",
+        "notes": "Very small reduction of items, buildings, and power. Uses more Bauxite and Oil, but saves on Quartz. Problem is that it prevents cutting Crystal Oscillators from the production line."
+    },
+    {
+        "rating": "D",
+        "name": "Sloppy Alumina",
+        "score": "56.2",
+        "notes": "Tiny reduction of overall item count and power use. Trades more Quartz for less Bauxite. The only real win here is that you won't have to deal with balancing Silica. Works well when paired with Pure Aluminum Ingot."
+    },
+    {
+        "rating": "D",
+        "name": "Steel Rod",
+        "score": "55.6",
+        "notes": "Small reduction of overall items, buildings, and power. Uses a little extra coal. No point in getting this recipe if you plan to cut Iron Rods from the production chain"
+    },
+    {
+        "rating": "D",
+        "name": "Turbo Electric Motor",
+        "score": "52.6",
+        "notes": "The Turbo Rigour Motor died. This has a very small reduction of items, buildings, and power from the original recipe. It uses a lot less Nitrogen Gas, if that's your thing. Compared to the Turbo Pressure Motor, this one looks pretty bad. At least you save on Nitrogen Gas. Honestly, if you're going to use the gas on anything, the Turbo Pressure Motor is where you should use it."
+    },
+    {
+        "rating": "D",
+        "name": "Fused Quickwire",
+        "score": "51.7",
+        "notes": "You'll save over half your Caterium use overall, but you'll take a small hit to your Copper. That Copper use is what makes it no bueno for end-game min-maxing. It also uses an Assembler instead of a Constructor, which is pretty hard to accept for average players as well. It adds a small number of items and some power use, but reduces a some building count overall."
+    },
+    {
+        "rating": "D",
+        "name": "Heat Exchanger",
+        "score": "51.6",
+        "notes": "Tiny reduction of overall items, buildings, and power use. Same with most raw resources. It does take a little more Oil. No major reason not to use it."
+    },
+    {
+        "rating": "F",
+        "name": "Iron Alloy Ingot",
+        "score": "48.3",
+        "notes": "Reduces a little bit of items, buildings, and power use. Increases Copper to save Iron, which is a really bad trade."
+    },
+    {
+        "rating": "F",
+        "name": "Insulated Cable",
+        "score": "46.3",
+        "notes": "Most people will still stick to the original recipe. They don't like introducing Rubber this early in the production chain. This reduces items, buildings, and power use (depending on whether you were producing Heavy Oil Residue for Fuel already). No point in getting this recipe if you plan to cut Cable from the production chain anyway."
+    },
+    {
+        "rating": "F",
+        "name": "Cast Screw",
+        "score": "45.8",
+        "notes": "This is one way to remove Screws from the production chain. Just not the best way. Compared to Steel Screw, it increase items, buildings, and power use (ever so slightly). No point in getting this recipe if you plan to cut Screws from the production chain."
+    },
+    {
+        "rating": "F",
+        "name": "Fine Concrete",
+        "score": "44.9",
+        "notes": "You'll have to use an Assembler instead of a Constructor, and by the time you are making Silica, you've already established a ton of Concrete. A bit of Quartz gives a 60% reduction of Limestone while reducing item and building counts overall. Too bad Limestone is basically water."
+    },
+    {
+        "rating": "F",
+        "name": "Alclad Casing",
+        "score": "42.5",
+        "notes": "A tiny decrease in buildings, and power use. A nice reduction of Bauxite, but a small increase in Copper use. Min-maxers will look at it, but average players will not like the fact that it uses an Assembler instead of a Constructor. For many, the added footprint and complexity isn't worth the small Bauxite improvements."
+    },
+    {
+        "rating": "F",
+        "name": "Steel Coated Plate",
+        "score": "42.3",
+        "notes": "Nobody wants to introduce Plastic this early into production. It reduces items and buildings overall. It increases Oil and Coal use to reduce Iron use. It trades a Constructor for an Assembler. Ouch."
+    },
+    {
+        "rating": "F",
+        "name": "Rubber Concrete",
+        "score": "41.5",
+        "notes": "Same notes as Fine Concrete, except Oil instead of Quartz and it's not as beneficial."
+    },
+    {
+        "rating": "F",
+        "name": "Copper Rotor",
+        "score": "40.6",
+        "notes": "This is actually pretty good. It still beats Steel Rotor in building count and barely in power use. It's better on resources too. The problem is that is requires a ton of Screws. Nobody likes Screws. The item counts go way up."
+    },
+    {
+        "rating": "F",
+        "name": "Compacted Steel Ingot/Compacted Coal",
+        "score": "39.5",
+        "notes": "You'll have to introduce Compacted Coal alternate Recipe and a new item to the production chain early on. It costs Sulfur, which isn't very good. It reduces coal by a crap ton, however. That's not worth it for most people."
+    },
+    {
+        "rating": "F",
+        "name": "Cheap Silica",
+        "score": "37.8",
+        "notes": "This is only for the min-maxer. It trades a Constructor for an Assembler, and introduces more items, buildings, and power use into the whole system. You save on some Quartz, but it's a big price to pay for average players. It's not worth the time if you don't plan on building 20,000 machines playing Satisfactory. There are other recipes that save Quartz that don't make your life harder."
+    },
+    {
+        "rating": "F",
+        "name": "Classic Battery",
+        "score": "36.7",
+        "notes": "Also only for the min-maxer. It increases items, buildings, and power use overall. You'll save on Bauxite at the cost of Sulfur (which could be bad for some). A well-balanced alternate for hardcore players however."
+    },
+    {
+        "rating": "F",
+        "name": "Radio Connection Unit",
+        "score": "34.6",
+        "notes": "Increases items, buildings, and a tiny amount of power use overall. Increases Caterium use by a large chunk. The big bonus is that it can be used to cut Crystal Oscillators from the production line. That alone can be enough to use this over either other recipe."
+    },
+    {
+        "rating": "F",
+        "name": "Caterium Wire",
+        "score": "33.9",
+        "notes": "Huge savings on items (6%), buildings (13.9%), and power use (5.7%) overall. It even uses a Constructor. The downside is obvious. No biome has enough Caterium for this recipe to work for anybody. It's a 733% increase in Caterium use overall compared to the original recipe in my case. This recipe is just a distraction for anyone."
+    },
+    {
+        "rating": "F",
+        "name": "Coke Steel Ingot",
+        "score": "33.3",
+        "notes": "You'll have to introduce a new item, Petroleum Coke, to the production chain early on. It costs Oil, which isn't very good. It reduces iron and coal from the original, but not from Solid Steel Ingot, which is much better."
+    },
+    {
+        "rating": "F",
+        "name": "Flexible Framework",
+        "score": "32.8",
+        "notes": "Goes from an Assembler to a Manufacturer and adds a lot of Oil. What do you get in return? A very slight reduction in Coal, items, buildings, and power. However, it's not enough to bother."
+    },
+    {
+        "rating": "F",
+        "name": "Coated Iron Plate",
+        "score": "32.2",
+        "notes": "Nobody likes introducing Plastic, let alone this early in the production chain for Iron. It trades a Constructor for an Assembler and increases Oil by a lot. You get a small decrease in item and building count from it over the original."
+    },
+    {
+        "rating": "F",
+        "name": "Cooling Device",
+        "score": "32.0",
+        "notes": "Uses a little less Nitrogen Gas, but more of just about everything else. Increases item count, buildings, and power slightly."
+    },
+    {
+        "rating": "F",
+        "name": "Pure Quartz Crystal",
+        "score": "29.5",
+        "notes": "Leave this for the min-maxer. You save 18.6% Quartz overall (in my case) for more items and more power use overall. It does reduce the number of buildings, but trades a Constructor for a Refinery. Plus you have to get water and Quartz together. Oof. There are other alternatives that save you more for less work."
+    },
+    {
+        "rating": "F",
+        "name": "Bolted Frame",
+        "score": "29.5",
+        "notes": "Compared to Steeled Frame, this will introduce a ton more items and a bit more buildings and power use overall. You can cut Iron Rods and Screws both out of the production chain by using Steeled Frame instead."
+    },
+    {
+        "rating": "F",
+        "name": "Steamed Copper Sheet",
+        "score": "29.0",
+        "notes": "Leave this for the min-maxer. You save 7% Copper overall (in my case) for a big increase in power use overall. It does reduce the number of buildings, but trades a Constructor for a Refinery. Plus you have to get water and Copper together. There are other alternatives that save you more for less work."
+    },
+    {
+        "rating": "F",
+        "name": "Wet Concrete",
+        "score": "27.1",
+        "notes": "Some people mistakenly think that water is free. It costs time and power, adds complexity, and forces you to bring two resources together. This recipe forces you to make water extractors and refineries, uses more power, and for what? Play this game long enough, and you'll realize that finding a place to mine more Limestone can be easier than water."
+    },
+    {
+        "rating": "F",
+        "name": "Rigour Motor",
+        "score": "18.2",
+        "notes": "Goes from an Assembler to a Manufacturer. At least you save a little on items, buildings, and power from the original recipe. You add Crystal Oscillators, which can be cut from the production chain. It eats up a lot of Quartz to save on less important resources."
+    },
+    {
+        "rating": "F",
+        "name": "Bolted Iron Plate",
+        "score": "17.1",
+        "notes": "An increase in the number of items and a decrease in the buildings and power overall. It's less resource efficient than the original recipe and a lot less efficient over Stitched Iron Plate. It also prevents cutting Screws from the production chain."
+    },
+    {
+        "rating": "F",
+        "name": "Pure Copper Ingot",
+        "score": "2.1",
+        "notes": "This is actually used when min-maxing, due to even Iron being pushed to the limit with Iron Wire. For an average player, this is horrible. You go from a Smelter to a Refinery. You dramatically increase building count (11%) and power use (25%). Plus you have to get water and Copper together. There are other alternatives that save you more for less work."
+    },
+    {
+        "rating": "F",
+        "name": "Iron Wire",
+        "score": "1.5",
+        "notes": "Ah, here it is. This is THE alternate for min-maxing. Problem is, the average player sees a big increase in items, BUILDINGS, and power use overall. The building score alone was 4 standard deviations below the rest of the recipes. It's also being compared to Fused Wire, which doesn't help its case."
+    },
+    {
+        "rating": "F",
+        "name": "OC Supercomputer",
+        "score": "1.3",
+        "notes": "This recipe wildly swings the rare recipes around. You'll increase Bauxite (113%) and Nitrogen Gas (161.7%) to decrease Caterium (-91%). You'll also see a huge increase in items, buildings, and power use (10%). You do get to use an Assembler instead of a Manufacturer, but you'll have to make more Cooling Systems to do it. I couldn't even get this recipe to work in any min-max setup. I think it will get buffed later."
+    },
+    {
+        "rating": "F",
+        "name": "Electrode Circuit Board",
+        "score": "0.4",
+        "notes": "Compared to Silicone Circuit Board, this increases items, buildings, and power use (12%) overall. You have to introduce a new item (Petroleum Coke) to your production line, and it eats Oil like nobody's business. It saves a little Copper over the original recipe. It's also being compared to two great alternatives (scores over 90), which doesn't help its case."
+    }
+]

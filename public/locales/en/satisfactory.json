@@ -1,0 +1,81 @@
+{
+    "title": "Satisfactory",
+    "nested_test": {"nested_key": "nested value"},
+    "products": "Products",
+    "product_details": "Product details",
+    "games": "Games",
+    "version": "Version",
+    "recipes": "Recipes",
+    "pages": {
+        "games": {
+            "title": "Games",
+            "deleteGame": "Are you sure you want to delete this game?",
+            "addFirstGame": "Create first game",
+            "addGame": "Create new game",
+            "version": "Version",
+            "tabs": {
+                "general": "General",
+                "factories": "Factories",
+                "power": "Power",
+                "trainstations": "Train stations",
+                "notepad": "Notepad",
+                "transport": "Transport"
+            },
+            "general": {
+                "generalinfo": "General information",
+                "version": "Version",
+                "players": "Players",
+                "addPlayerHelperText": "You can add players here. The owner of the game is able to delete the game and add other players, whereas players can only update game data.",
+                "cantDeleteOwner": "This is the owner of the game. The owner cannot be deleted.",
+                "userId": "User ID",
+                "addPlayer": "Add player",
+                "deleteGame": "Delete game",
+                "deleteGameConfirmation": "Are you sure you want to delete this game?",
+                "deleteGameWarning": "Delete this game and all related data. This action is irreversible!",
+                "downloadGame": "Download game",
+                "uploadGame": "Upload game",
+                "downloadGameHelperText": "Advanced: You can download the JSON data of this game and use it for yourself, or copy parts of it and upload a new game here."
+            },
+            "factories": {
+                "addFirst": "Create first factory",
+                "add": "Create new factory",
+                "checked": "Checked",
+                "finished": "Finished",
+                "inputs": "Inputs",
+                "outputs": "Outputs",
+                "product": "Product",
+                "amount": "Amount",
+                "recipe": "Recipe",
+                "recipeHelperText": "These are the recipes produced in this factory. Add a recipe, select recipe and amount of machines and hit the save icon. After saving, the factory inputs and outputs should be displayed above this table.",
+                "noInputsOutputsStarter": "Add recipes in the recipe table below to start producing products in this factory.",
+                "noInputsOutputs": "There are no inputs or outputs from this factory. If this is intended: GREAT JOB!"
+            },
+            "stations": {
+                "addFirst": "Create first transport station",
+                "add": "Create transport station",
+                "information": "Information",
+                "name": "Station name"
+            },
+            "scribble": {
+                "helperText": "Make your notes here"
+            }
+        },
+        "products": {
+            "title": "Products",
+            "stackSize": "Stack size",
+            "info": "Info",
+            "input": "Input",
+            "machine": "Machine",
+            "output": "Output",
+            "requirements": "Requirements",
+            "fullscreen": "Open in fullscreen"
+        },
+        "recipes": {
+            "title": "Recipes",
+            "info": "Info",
+            "machine": "Machine",
+            "fullscreen": "Open in fullscreen",
+            "slug": "ID"
+        }
+    }
+}

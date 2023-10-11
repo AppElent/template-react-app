@@ -1,0 +1,681 @@
+{
+  "Recipe_Material_Wall_Concrete_C": {
+    "slug": "material-wall-concrete",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Wall_Steel_C": {
+    "slug": "material-wall-steel",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_Arrows_C": {
+    "slug": "pattern-remover-arrows",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_Icons_C": {
+    "slug": "pattern-remover-icons",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_Lines_C": {
+    "slug": "pattern-remover-lines",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_Numbers_C": {
+    "slug": "pattern-remover-numbers",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_Paths_C": {
+    "slug": "pattern-remover-paths",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_C": {
+    "slug": "pattern-remover",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Remover_Zones_C": {
+    "slug": "pattern-remover-zones",
+    "isSwatch": false,
+    "isPatternRemover": true,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Custom_C": {
+    "slug": "swatch-custom",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot0_C": {
+    "slug": "swatch-slot0",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot1_C": {
+    "slug": "swatch-slot1",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot10_C": {
+    "slug": "swatch-slot10",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot11_C": {
+    "slug": "swatch-slot11",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot12_C": {
+    "slug": "swatch-slot12",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot13_C": {
+    "slug": "swatch-slot13",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot14_C": {
+    "slug": "swatch-slot14",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot15_C": {
+    "slug": "swatch-slot15",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot16_C": {
+    "slug": "swatch-slot16",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot2_C": {
+    "slug": "swatch-slot2",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot3_C": {
+    "slug": "swatch-slot3",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot4_C": {
+    "slug": "swatch-slot4",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot5_C": {
+    "slug": "swatch-slot5",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot6_C": {
+    "slug": "swatch-slot6",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot7_C": {
+    "slug": "swatch-slot7",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot8_C": {
+    "slug": "swatch-slot8",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot9_C": {
+    "slug": "swatch-slot9",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_SkinFicsmas_Default_C": {
+    "slug": "skinficsmas-default",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_SkinRemover_C": {
+    "slug": "skinremover",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_SkinFicsmas_Premium_C": {
+    "slug": "skinficsmas-premium",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Slot17_C": {
+    "slug": "swatch-slot17",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Foundation_Asphalt_C": {
+    "slug": "material-foundation-asphalt",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Foundation_GripMetal_C": {
+    "slug": "material-foundation-gripmetal",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Foundation_PolishedConcrete_C": {
+    "slug": "material-foundation-polishedconcrete",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Foundation_Concrete_C": {
+    "slug": "material-foundation-concrete",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Swatch_Concrete_C": {
+    "slug": "swatch-concrete",
+    "isSwatch": true,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Roof_Glass_C": {
+    "slug": "material-roof-glass",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Roof_Metal_C": {
+    "slug": "material-roof-metal",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Material_Roof_Tar_C": {
+    "slug": "material-roof-tar",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ArrowBack_C": {
+    "slug": "pattern-arrowback",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ArrowLeft_C": {
+    "slug": "pattern-arrowleft",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ArrowRight_C": {
+    "slug": "pattern-arrowright",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ArrowStraight_C": {
+    "slug": "pattern-arrowstraight",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_NO_ArrowLeft_C": {
+    "slug": "pattern-no-arrowleft",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_NO_ArrowRight_C": {
+    "slug": "pattern-no-arrowright",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_NO_ArrowStraight_C": {
+    "slug": "pattern-no-arrowstraight",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedCentre_C": {
+    "slug": "pattern-dottedcentre",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedCentreCorner_C": {
+    "slug": "pattern-dottedcentrecorner",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedCross_C": {
+    "slug": "pattern-dottedcross",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedDouble_C": {
+    "slug": "pattern-dotteddouble",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedSide_C": {
+    "slug": "pattern-dottedside",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedSideCorner_C": {
+    "slug": "pattern-dottedsidecorner",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_DottedSplit_C": {
+    "slug": "pattern-dottedsplit",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineCentre_C": {
+    "slug": "pattern-linecentre",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineCentreCorner_C": {
+    "slug": "pattern-linecentrecorner",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineCross_C": {
+    "slug": "pattern-linecross",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineDouble_C": {
+    "slug": "pattern-linedouble",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineSide_C": {
+    "slug": "pattern-lineside",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineSideCorner_C": {
+    "slug": "pattern-linesidecorner",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_LineSplit_C": {
+    "slug": "pattern-linesplit",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Factory_C": {
+    "slug": "pattern-icon-factory",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Liquid_C": {
+    "slug": "pattern-icon-liquid",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Nuclear_C": {
+    "slug": "pattern-icon-nuclear",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Pioneer_C": {
+    "slug": "pattern-icon-pioneer",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Power_C": {
+    "slug": "pattern-icon-power",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_StopCross_C": {
+    "slug": "pattern-icon-stopcross",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Storage_C": {
+    "slug": "pattern-icon-storage",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_NO_Pioneer_C": {
+    "slug": "pattern-no-pioneer",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Cart_C": {
+    "slug": "pattern-icon-cart",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Explorer_C": {
+    "slug": "pattern-icon-explorer",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Parking_C": {
+    "slug": "pattern-icon-parking",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Tractor_C": {
+    "slug": "pattern-icon-tractor",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Icon_Truck_C": {
+    "slug": "pattern-icon-truck",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_NO_Cart_C": {
+    "slug": "pattern-no-cart",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_NO_Parking_C": {
+    "slug": "pattern-no-parking",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_FullZebra_C": {
+    "slug": "pattern-fullzebra",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number0_C": {
+    "slug": "pattern-number0",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number1_C": {
+    "slug": "pattern-number1",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number2_C": {
+    "slug": "pattern-number2",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number3_C": {
+    "slug": "pattern-number3",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number4_C": {
+    "slug": "pattern-number4",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number5_C": {
+    "slug": "pattern-number5",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number6_C": {
+    "slug": "pattern-number6",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number7_C": {
+    "slug": "pattern-number7",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number8_C": {
+    "slug": "pattern-number8",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_Number9_C": {
+    "slug": "pattern-number9",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathCart_C": {
+    "slug": "pattern-pathcart",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathCorner_C": {
+    "slug": "pattern-pathcorner",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathCross_C": {
+    "slug": "pattern-pathcross",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathPioneer_C": {
+    "slug": "pattern-pathpioneer",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathSplit_C": {
+    "slug": "pattern-pathsplit",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathStraight_C": {
+    "slug": "pattern-pathstraight",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_PathZebra_C": {
+    "slug": "pattern-pathzebra",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ZoneFull_C": {
+    "slug": "pattern-zonefull",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ZoneHalf_C": {
+    "slug": "pattern-zonehalf",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ZoneLine_C": {
+    "slug": "pattern-zoneline",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  },
+  "Recipe_Pattern_ZoneQuarter_C": {
+    "slug": "pattern-zonequarter",
+    "isSwatch": false,
+    "isPatternRemover": false,
+    "ingredients": [],
+    "event": "NONE"
+  }
+}

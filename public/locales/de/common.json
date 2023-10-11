@@ -1,0 +1,136 @@
+{
+  "pages": {
+    "login": {
+      "title": "Melden Sie sich bei Ihrem Konto an",
+      "signin": "Anmelden",
+      "signup": "Anmelden",
+      "divider": "oder",
+      "fields": {
+        "email": "E-Mail",
+        "password": "Passwort"
+      },
+      "errors": {
+        "validEmail": "Ungültige E-Mail-Adresse"
+      },
+      "buttons": {
+        "submit": "Einloggen",
+        "forgotPassword": "Passwort vergessen?",
+        "noAccount": "Sie haben noch kein Konto?",
+        "rememberMe": "Erinnern Sie sich an mich"
+      }
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen?",
+      "fields": {
+        "email": "E-Mail"
+      },
+      "errors": {
+        "validEmail": "Ungültige E-Mail-Adresse"
+      },
+      "buttons": {
+        "submit": "Anweisungen zum Zurücksetzen senden"
+      }
+    },
+    "register": {
+      "title": "Registrieren Sie sich für Ihr Konto",
+      "fields": {
+        "email": "E-Mail",
+        "password": "Passwort"
+      },
+      "errors": {
+        "validEmail": "Ungültige E-Mail-Adresse"
+      },
+      "buttons": {
+        "submit": "Registrieren",
+        "haveAccount": "Haben Sie ein Konto?"
+      }
+    },
+    "updatePassword": {
+      "title": "Passwort aktualisieren",
+      "fields": {
+        "password": "Neues Passwort",
+        "confirmPassword": "Neues Passwort bestätigen"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Kennwörter stimmen nicht überein"
+      },
+      "buttons": {
+        "submit": "Aktualisieren"
+      }
+    },
+    "errors": {
+      "info": "Möglicherweise haben Sie vergessen, die Aktionskomponente zur Ressourcenressource hinzuzufügen.",
+      "resource404": "Sind Sie sicher, dass Sie die {{resource}} Ressource erstellt haben?",
+      "backHome": "Zurück zu Hause",
+      "notFound": "Die von Ihnen besuchte Seite existiert leider nicht."
+    }
+  },
+  "actions": {
+    "list": "Liste",
+    "create": "Schaffen",
+    "edit": "Redigieren",
+    "show": "Zeigen"
+  },
+  "buttons": {
+    "create": "Schaffen",
+    "save": "Retten",
+    "logout": "Abmeldung",
+    "delete": "Löschen",
+    "edit": "Redigieren",
+    "cancel": "Abbrechen",
+    "confirm": "Bist du sicher?",
+    "filter": "Filter",
+    "clear": "Klar",
+    "refresh": "Auffrischen",
+    "show": "Zeigen",
+    "undo": "Aufmachen",
+    "import": "Importieren",
+    "clone": "Klonen",
+    "notAccessTitle": "Sie haben keine Zugriffsberechtigung"
+  },
+  "warnWhenUnsavedChanges": "Sind Sie sicher, dass Sie gehen möchten? Sie haben nicht gespeicherte Änderungen.",
+  "notifications": {
+    "success": "Erfolgreich",
+    "error": "Fehler (Statuscode: {{statusCode}})",
+    "undoable": "Sie haben {{seconds}} Sekunden Zeit, um es rückgängig zu machen",
+    "createSuccess": "Erfolgreich erstellte {{resource}}",
+    "createError": "Fehler beim Erstellen {{resource}} (Statuscode: {{statusCode}})",
+    "deleteSuccess": "Erfolgreich gelöscht {{resource}}",
+    "deleteError": "Fehler beim Löschen {{resource}} (Statuscode: {{statusCode}})",
+    "editSuccess": "Erfolgreich bearbeitet {{resource}}",
+    "editError": "Fehler beim Bearbeiten {{resource}} (Statuscode: {{statusCode}})",
+    "importProgress": "Import: {{processed}}/{{total}}"
+  },
+  "loading": "Laden",
+  "tags": {
+    "clone": "Klonen"
+  },
+  "dashboard": {
+    "title": "Instrumententafel"
+  },
+  "posts": {
+    "posts": "Beiträge",
+    "fields": {
+      "id": "Id",
+      "title": "Titel",
+      "category": "Kategorie",
+      "status": {
+        "title": "Status",
+        "published": "Veröffentlicht",
+        "draft": "Entwurf",
+        "rejected": "Zurückgewiesen"
+      },
+      "content": "Inhalt",
+      "createdAt": "Erstellt am"
+    },
+    "titles": {
+      "create": "Beitrag erstellen",
+      "edit": "Beitrag bearbeiten",
+      "list": "Beiträge",
+      "show": "Beitrag anzeigen"
+    }
+  },
+  "table": {
+    "actions": "Aktionen"
+  }
+}

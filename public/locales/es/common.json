@@ -1,0 +1,136 @@
+{
+  "pages": {
+    "login": {
+      "title": "Inicia sesión en tu cuenta",
+      "signin": "Inicia sesión",
+      "signup": "Únete",
+      "divider": "o",
+      "fields": {
+        "email": "Correo electrónico",
+        "password": "Contraseña"
+      },
+      "errors": {
+        "validEmail": "Dirección de correo electrónico no válida"
+      },
+      "buttons": {
+        "submit": "Iniciar sesión",
+        "forgotPassword": "¿Olvidó su contraseña?",
+        "noAccount": "¿No tienes una cuenta?",
+        "rememberMe": "Recuérdame"
+      }
+    },
+    "forgotPassword": {
+      "title": "¿Olvidó su contraseña?",
+      "fields": {
+        "email": "Correo electrónico"
+      },
+      "errors": {
+        "validEmail": "Dirección de correo electrónico no válida"
+      },
+      "buttons": {
+        "submit": "Enviar instrucciones de restablecimiento"
+      }
+    },
+    "register": {
+      "title": "Regístrese para obtener su cuenta",
+      "fields": {
+        "email": "Correo electrónico",
+        "password": "Contraseña"
+      },
+      "errors": {
+        "validEmail": "Dirección de correo electrónico no válida"
+      },
+      "buttons": {
+        "submit": "Registro",
+        "haveAccount": "¿Tienes una cuenta?"
+      }
+    },
+    "updatePassword": {
+      "title": "Actualizar contraseña",
+      "fields": {
+        "password": "Nueva contraseña",
+        "confirmPassword": "Confirmar nueva contraseña"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Las contraseñas no coinciden"
+      },
+      "buttons": {
+        "submit": "Actualizar"
+      }
+    },
+    "errors": {
+      "info": "Es posible que haya olvidado agregar el componente de acción al recurso de recursos.",
+      "resource404": "¿Está seguro de que ha creado el recurso {{resource}} ?",
+      "backHome": "Volver a casa",
+      "notFound": "Lo sentimos, la página que visitó no existe."
+    }
+  },
+  "actions": {
+    "list": "Lista",
+    "create": "Crear",
+    "edit": "Editar",
+    "show": "Mostrar"
+  },
+  "buttons": {
+    "create": "Crear",
+    "save": "Salvar",
+    "logout": "Cerrar sesión",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "confirm": "¿Estás seguro?",
+    "filter": "Filtro",
+    "clear": "Claro",
+    "refresh": "Actualizar",
+    "show": "Mostrar",
+    "undo": "Deshacer",
+    "import": "Importación",
+    "clone": "Clon",
+    "notAccessTitle": "No tienes permiso para acceder"
+  },
+  "warnWhenUnsavedChanges": "¿Estás seguro de que quieres irte? Tiene cambios no guardados.",
+  "notifications": {
+    "success": "Exitoso",
+    "error": "Error (código de estado: {{statusCode}})",
+    "undoable": "Tienes {{seconds}} segundos para deshacer",
+    "createSuccess": "Creado correctamente {{resource}}",
+    "createError": "Se ha producido un error al crear {{resource}} (código de estado: {{statusCode}})",
+    "deleteSuccess": "Eliminado correctamente {{resource}}",
+    "deleteError": "Error al eliminar {{resource}} (código de estado: {{statusCode}})",
+    "editSuccess": "Editado correctamente {{resource}}",
+    "editError": "Error al editar {{resource}} (código de estado: {{statusCode}})",
+    "importProgress": "Importación: {{processed}}/{{total}}"
+  },
+  "loading": "Carga",
+  "tags": {
+    "clone": "Clon"
+  },
+  "dashboard": {
+    "title": "Salpicadero"
+  },
+  "posts": {
+    "posts": "Mensajes",
+    "fields": {
+      "id": "Identificación",
+      "title": "Título",
+      "category": "Categoría",
+      "status": {
+        "title": "Estado",
+        "published": "Publicado",
+        "draft": "Corriente de aire",
+        "rejected": "Rechazado"
+      },
+      "content": "Contenido",
+      "createdAt": "Creado en"
+    },
+    "titles": {
+      "create": "Crear publicación",
+      "edit": "Editar publicación",
+      "list": "Mensajes",
+      "show": "Mostrar publicación"
+    }
+  },
+  "table": {
+    "actions": "Acciones"
+  }
+}

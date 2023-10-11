@@ -1,0 +1,7174 @@
+{
+  "Recipe_IronPlate_C": {
+    "slug": "iron-plate-recipe",
+    "name": "Iron Plate",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_IronRod_C": {
+    "slug": "iron-rod-recipe",
+    "name": "Iron Rod",
+    "craftTime": 4,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_XenoZapper_C": {
+    "slug": "xeno-zapper-recipe",
+    "name": "Xeno-Zapper",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 50
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ShockShank_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_IngotIron_C": {
+    "slug": "iron-ingot-recipe",
+    "name": "Iron Ingot",
+    "craftTime": 2,
+    "manualCraftMultiplier": 3,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_SmelterMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_WetConcrete_C": {
+    "slug": "alternate-wet-concrete-recipe",
+    "name": "Alternate: Wet Concrete",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stone_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_ColorCartridge_C": {
+    "slug": "color-cartridge-recipe",
+    "name": "Color Cartridge",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_FlowerPetals_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ColorCartridge_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_TurboHeavyFuel_C": {
+    "slug": "alternate-turbo-heavy-fuel-recipe",
+    "name": "Alternate: Turbo Heavy Fuel",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_CompactedCoal_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidTurboFuel_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedTurboFuel_C": {
+    "slug": "packaged-turbofuel-recipe",
+    "name": "Packaged Turbofuel",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidTurboFuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_TurboFuel_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageTurboFuel_C": {
+    "slug": "unpackage-turbofuel-recipe",
+    "name": "Unpackage Turbofuel",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_TurboFuel_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidTurboFuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Coal_1_C": {
+    "slug": "alternate-charcoal-recipe",
+    "name": "Alternate: Charcoal",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Wood_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Coal_2_C": {
+    "slug": "alternate-biocoal-recipe",
+    "name": "Alternate: Biocoal",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 6
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_EnrichedCoal_C": {
+    "slug": "alternate-compacted-coal-recipe",
+    "name": "Alternate: Compacted Coal",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CompactedCoal_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_CircuitBoard_C": {
+    "slug": "circuit-board-recipe",
+    "name": "Circuit Board",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_LiquidFuel_C": {
+    "slug": "fuel-recipe",
+    "name": "Fuel",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_PolymerResin_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_PetroleumCoke_C": {
+    "slug": "petroleum-coke-recipe",
+    "name": "Petroleum Coke",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PetroleumCoke_C",
+        "quantity": 12
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Plastic_C": {
+    "slug": "plastic-recipe",
+    "name": "Plastic",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Rubber_C": {
+    "slug": "rubber-recipe",
+    "name": "Rubber",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_ResidualFuel_C": {
+    "slug": "residual-fuel-recipe",
+    "name": "Residual Fuel",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_ResidualPlastic_C": {
+    "slug": "residual-plastic-recipe",
+    "name": "Residual Plastic",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PolymerResin_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_ResidualRubber_C": {
+    "slug": "residual-rubber-recipe",
+    "name": "Residual Rubber",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PolymerResin_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_SteelRod_C": {
+    "slug": "alternate-steel-rod-recipe",
+    "name": "Alternate: Steel Rod",
+    "craftTime": 5,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SteelBeam_C": {
+    "slug": "steel-beam-recipe",
+    "name": "Steel Beam",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SteelPipe_C": {
+    "slug": "steel-pipe-recipe",
+    "name": "Steel Pipe",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_IngotSteel_C": {
+    "slug": "steel-ingot-recipe",
+    "name": "Steel Ingot",
+    "craftTime": 4,
+    "manualCraftMultiplier": 3,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_2_C": {
+    "slug": "versatile-framework-recipe",
+    "name": "Versatile Framework",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_2_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_SteelCoatedPlate_C": {
+    "slug": "alternate-steel-coated-plate-recipe",
+    "name": "Alternate: Steel Coated Plate",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 18
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_SteelCanister_C": {
+    "slug": "alternate-steel-canister-recipe",
+    "name": "Alternate: Steel Canister",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_FluidCanister_C": {
+    "slug": "empty-canister-recipe",
+    "name": "Empty Canister",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Fuel_C": {
+    "slug": "packaged-fuel-recipe",
+    "name": "Packaged Fuel",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fuel_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_LiquidBiofuel_C": {
+    "slug": "liquid-biofuel-recipe",
+    "name": "Liquid Biofuel",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Biofuel_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidBiofuel_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedBiofuel_C": {
+    "slug": "packaged-liquid-biofuel-recipe",
+    "name": "Packaged Liquid Biofuel",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidBiofuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedBiofuel_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedCrudeOil_C": {
+    "slug": "packaged-oil-recipe",
+    "name": "Packaged Oil",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedOil_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedOilResidue_C": {
+    "slug": "packaged-heavy-oil-residue-recipe",
+    "name": "Packaged Heavy Oil Residue",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedOilResidue_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedWater_C": {
+    "slug": "packaged-water-recipe",
+    "name": "Packaged Water",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedWater_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageBioFuel_C": {
+    "slug": "unpackage-liquid-biofuel-recipe",
+    "name": "Unpackage Liquid Biofuel",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedBiofuel_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidBiofuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageFuel_C": {
+    "slug": "unpackage-fuel-recipe",
+    "name": "Unpackage Fuel",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Fuel_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageOil_C": {
+    "slug": "unpackage-oil-recipe",
+    "name": "Unpackage Oil",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedOil_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageOilResidue_C": {
+    "slug": "unpackage-heavy-oil-residue-recipe",
+    "name": "Unpackage Heavy Oil Residue",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedOilResidue_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageWater_C": {
+    "slug": "unpackage-water-recipe",
+    "name": "Unpackage Water",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedWater_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_SteamedCopperSheet_C": {
+    "slug": "alternate-steamed-copper-sheet-recipe",
+    "name": "Alternate: Steamed Copper Sheet",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_RubberConcrete_C": {
+    "slug": "alternate-rubber-concrete-recipe",
+    "name": "Alternate: Rubber Concrete",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stone_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 9
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_RecycledRubber_C": {
+    "slug": "alternate-recycled-rubber-recipe",
+    "name": "Alternate: Recycled Rubber",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 12
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PureQuartzCrystal_C": {
+    "slug": "alternate-pure-quartz-crystal-recipe",
+    "name": "Alternate: Pure Quartz Crystal",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_RawQuartz_C",
+        "quantity": 9
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_QuartzCrystal_C",
+        "quantity": 7
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_QuartzCrystal_C": {
+    "slug": "quartz-crystal-recipe",
+    "name": "Quartz Crystal",
+    "craftTime": 8,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_RawQuartz_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_QuartzCrystal_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PureIronIngot_C": {
+    "slug": "alternate-pure-iron-ingot-recipe",
+    "name": "Alternate: Pure Iron Ingot",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 7
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 13
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PureCopperIngot_C": {
+    "slug": "alternate-pure-copper-ingot-recipe",
+    "name": "Alternate: Pure Copper Ingot",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreCopper_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 15
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PureCateriumIngot_C": {
+    "slug": "alternate-pure-caterium-ingot-recipe",
+    "name": "Alternate: Pure Caterium Ingot",
+    "craftTime": 5,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreGold_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_PureAluminumIngot_C": {
+    "slug": "alternate-pure-aluminum-ingot-recipe",
+    "name": "Alternate: Pure Aluminum Ingot",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumScrap_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_SmelterMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_UraniumCell_C": {
+    "slug": "encased-uranium-cell-recipe",
+    "name": "Encased Uranium Cell",
+    "craftTime": 12,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreUranium_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_UraniumCell_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_CoolingSystem_C": {
+    "slug": "cooling-system-recipe",
+    "name": "Cooling System",
+    "craftTime": 10,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumPlateReinforced_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_NitrogenGas_C",
+        "quantity": 25
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CoolingSystem_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_NitricAcid_C": {
+    "slug": "nitric-acid-recipe",
+    "name": "Nitric Acid",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NitrogenGas_C",
+        "quantity": 12
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NitricAcid_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_NonFissileUranium_C": {
+    "slug": "non-fissile-uranium-recipe",
+    "name": "Non-fissile Uranium",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NuclearWaste_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_NitricAcid_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NonFissibleUranium_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 6
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_AluminumCasing_C": {
+    "slug": "aluminum-casing-recipe",
+    "name": "Aluminum Casing",
+    "craftTime": 2,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_AluminumSheet_C": {
+    "slug": "alclad-aluminum-sheet-recipe",
+    "name": "Alclad Aluminum Sheet",
+    "craftTime": 6,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumPlate_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_RadioControlUnit_C": {
+    "slug": "radio-control-unit-recipe",
+    "name": "Radio Control Unit",
+    "craftTime": 48,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 32
+      },
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_AluminaSolution_C": {
+    "slug": "alumina-solution-recipe",
+    "name": "Alumina Solution",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreBauxite_C",
+        "quantity": 12
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 18
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 12
+      },
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_AluminumScrap_C": {
+    "slug": "aluminum-scrap-recipe",
+    "name": "Aluminum Scrap",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumScrap_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedAlumina_C": {
+    "slug": "packaged-alumina-solution-recipe",
+    "name": "Packaged Alumina Solution",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedAlumina_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_IngotAluminum_C": {
+    "slug": "aluminum-ingot-recipe",
+    "name": "Aluminum Ingot",
+    "craftTime": 4,
+    "manualCraftMultiplier": 3,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumScrap_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Silica_C": {
+    "slug": "silica-recipe",
+    "name": "Silica",
+    "craftTime": 8,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_RawQuartz_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_CrystalOscillator_C": {
+    "slug": "crystal-oscillator-recipe",
+    "name": "Crystal Oscillator",
+    "craftTime": 120,
+    "manualCraftMultiplier": 0.3,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_QuartzCrystal_C",
+        "quantity": 36
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 28
+      },
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageAlumina_C": {
+    "slug": "unpackage-alumina-solution-recipe",
+    "name": "Unpackage Alumina Solution",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedAlumina_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PolymerResin_C": {
+    "slug": "alternate-polymer-resin-recipe",
+    "name": "Alternate: Polymer Resin",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PolymerResin_C",
+        "quantity": 13
+      },
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PlasticSmartPlating_C": {
+    "slug": "alternate-plastic-smart-plating-recipe",
+    "name": "Alternate: Plastic Smart Plating",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_1_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_HighSpeedWiring_C": {
+    "slug": "alternate-automated-speed-wiring-recipe",
+    "name": "Alternate: Automated Speed Wiring",
+    "craftTime": 32,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 40
+      },
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_3_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_EncasedIndustrialBeam_C": {
+    "slug": "encased-industrial-beam-recipe",
+    "name": "Encased Industrial Beam",
+    "craftTime": 10,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelPlateReinforced_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Motor_C": {
+    "slug": "motor-recipe",
+    "name": "Motor",
+    "craftTime": 12,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Stator_C": {
+    "slug": "stator-recipe",
+    "name": "Stator",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_ModularFrameHeavy_C": {
+    "slug": "heavy-modular-frame-recipe",
+    "name": "Heavy Modular Frame",
+    "craftTime": 30,
+    "manualCraftMultiplier": 0.6,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_SteelPlateReinforced_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_3_C": {
+    "slug": "automated-wiring-recipe",
+    "name": "Automated Wiring",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_3_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_AILimiter_C": {
+    "slug": "ai-limiter-recipe",
+    "name": "AI Limiter",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CircuitBoardHighSpeed_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_HeavyOilResidue_C": {
+    "slug": "alternate-heavy-oil-residue-recipe",
+    "name": "Alternate: Heavy Oil Residue",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidOil_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_PolymerResin_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_HeavyFlexibleFrame_C": {
+    "slug": "alternate-heavy-flexible-frame-recipe",
+    "name": "Alternate: Heavy Flexible Frame",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_SteelPlateReinforced_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 104
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Computer_C": {
+    "slug": "computer-recipe",
+    "name": "Computer",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 9
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 18
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 52
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_4_C": {
+    "slug": "modular-engine-recipe",
+    "name": "Modular Engine",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_SpaceElevatorPart_1_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_4_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_5_C": {
+    "slug": "adaptive-control-unit-recipe",
+    "name": "Adaptive Control Unit",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_3_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_5_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_FusedWire_C": {
+    "slug": "alternate-fused-wire-recipe",
+    "name": "Alternate: Fused Wire",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 30
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_FlexibleFramework_C": {
+    "slug": "alternate-flexible-framework-recipe",
+    "name": "Alternate: Flexible Framework",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_2_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ElectrodeCircuitBoard_C": {
+    "slug": "alternate-electrode-circuit-board-recipe",
+    "name": "Alternate: Electrode Circuit Board",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_PetroleumCoke_C",
+        "quantity": 9
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ElectroAluminumScrap_C": {
+    "slug": "alternate-electrode-aluminum-scrap-recipe",
+    "name": "Alternate: Electrode - Aluminum Scrap",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 12
+      },
+      {
+        "itemClass": "Desc_PetroleumCoke_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumScrap_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 7
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_DilutedPackagedFuel_C": {
+    "slug": "alternate-diluted-packaged-fuel-recipe",
+    "name": "Alternate: Diluted Packaged Fuel",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_PackagedWater_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fuel_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CopperRotor_C": {
+    "slug": "alternate-copper-rotor-recipe",
+    "name": "Alternate: Copper Rotor",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 52
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_ModularFrame_C": {
+    "slug": "modular-frame-recipe",
+    "name": "Modular Frame",
+    "craftTime": 60,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Rotor_C": {
+    "slug": "rotor-recipe",
+    "name": "Rotor",
+    "craftTime": 15,
+    "manualCraftMultiplier": 0.8,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 25
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_CopperSheet_C": {
+    "slug": "copper-sheet-recipe",
+    "name": "Copper Sheet",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_1_C": {
+    "slug": "smart-plating-recipe",
+    "name": "Smart Plating",
+    "craftTime": 30,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_1_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CopperAlloyIngot_C": {
+    "slug": "alternate-copper-alloy-ingot-recipe",
+    "name": "Alternate: Copper Alloy Ingot",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreCopper_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CokeSteelIngot_C": {
+    "slug": "alternate-coke-steel-ingot-recipe",
+    "name": "Alternate: Coke Steel Ingot",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_PetroleumCoke_C",
+        "quantity": 15
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CoatedIronPlate_C": {
+    "slug": "alternate-coated-iron-plate-recipe",
+    "name": "Alternate: Coated Iron Plate",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 15
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CoatedIronCanister_C": {
+    "slug": "alternate-coated-iron-canister-recipe",
+    "name": "Alternate: Coated Iron Canister",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CoatedCable_C": {
+    "slug": "alternate-coated-cable-recipe",
+    "name": "Alternate: Coated Cable",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 9
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_BoltedFrame_C": {
+    "slug": "alternate-bolted-frame-recipe",
+    "name": "Alternate: Bolted Frame",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 56
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_AdheredIronPlate_C": {
+    "slug": "alternate-adhered-iron-plate-recipe",
+    "name": "Alternate: Adhered Iron Plate",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_TurboPressureMotor_C": {
+    "slug": "alternate-turbo-pressure-motor-recipe",
+    "name": "Alternate: Turbo Pressure Motor",
+    "craftTime": 32,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_PressureConversionCube_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_PackagedNitrogenGas_C",
+        "quantity": 24
+      },
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_MotorLightweight_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PlutoniumCell_C": {
+    "slug": "encased-plutonium-cell-recipe",
+    "name": "Encased Plutonium Cell",
+    "craftTime": 12,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PlutoniumPellet_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PlutoniumCell_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PressureConversionCube_C": {
+    "slug": "pressure-conversion-cube-recipe",
+    "name": "Pressure Conversion Cube",
+    "craftTime": 60,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrameFused_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PressureConversionCube_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_CopperDust_C": {
+    "slug": "copper-powder-recipe",
+    "name": "Copper Powder",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CopperDust_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Plutonium_C": {
+    "slug": "plutonium-pellet-recipe",
+    "name": "Plutonium Pellet",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NonFissibleUranium_C",
+        "quantity": 100
+      },
+      {
+        "itemClass": "Desc_NuclearWaste_C",
+        "quantity": 25
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PlutoniumPellet_C",
+        "quantity": 30
+      }
+    ],
+    "producedIn": "Desc_HadronCollider_C",
+    "event": "NONE"
+  },
+  "Recipe_PlutoniumFuelRod_C": {
+    "slug": "plutonium-fuel-rod-recipe",
+    "name": "Plutonium Fuel Rod",
+    "craftTime": 240,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PlutoniumCell_C",
+        "quantity": 30
+      },
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 18
+      },
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_AluminumPlateReinforced_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PlutoniumFuelRod_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedNitricAcid_C": {
+    "slug": "packaged-nitric-acid-recipe",
+    "name": "Packaged Nitric Acid",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NitricAcid_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_GasTank_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedNitricAcid_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_9_C": {
+    "slug": "nuclear-pasta-recipe",
+    "name": "Nuclear Pasta",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperDust_C",
+        "quantity": 200
+      },
+      {
+        "itemClass": "Desc_PressureConversionCube_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_9_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_HadronCollider_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageNitricAcid_C": {
+    "slug": "unpackage-nitric-acid-recipe",
+    "name": "Unpackage Nitric Acid",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedNitricAcid_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NitricAcid_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_GasTank_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_TurboBlendFuel_C": {
+    "slug": "alternate-turbo-blend-fuel-recipe",
+    "name": "Alternate: Turbo Blend Fuel",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_PetroleumCoke_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidTurboFuel_C",
+        "quantity": 6
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_SuperStateComputer_C": {
+    "slug": "alternate-super-state-computer-recipe",
+    "name": "Alternate: Super-State Computer",
+    "craftTime": 50,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Battery_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 45
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ComputerSuper_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Battery_C": {
+    "slug": "battery-recipe",
+    "name": "Battery",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 2.5
+      },
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Battery_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 1.5
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_ComputerSuper_C": {
+    "slug": "supercomputer-recipe",
+    "name": "Supercomputer",
+    "craftTime": 32,
+    "manualCraftMultiplier": 1.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_CircuitBoardHighSpeed_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 28
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ComputerSuper_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SulfuricAcid_C": {
+    "slug": "sulfuric-acid-recipe",
+    "name": "Sulfuric Acid",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedSulfuricAcid_C": {
+    "slug": "packaged-sulfuric-acid-recipe",
+    "name": "Packaged Sulfuric Acid",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedSulfuricAcid_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_7_C": {
+    "slug": "assembly-director-system-recipe",
+    "name": "Assembly Director System",
+    "craftTime": 80,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_5_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_ComputerSuper_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_7_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_HighSpeedConnector_C": {
+    "slug": "high-speed-connector-recipe",
+    "name": "High-Speed Connector",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 56
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageSulfuricAcid_C": {
+    "slug": "unpackage-sulfuric-acid-recipe",
+    "name": "Unpackage Sulfuric Acid",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedSulfuricAcid_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_FluidCanister_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_ElectromagneticControlRod_C": {
+    "slug": "electromagnetic-control-rod-recipe",
+    "name": "Electromagnetic Control Rod",
+    "craftTime": 30,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_CircuitBoardHighSpeed_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_NuclearFuelRod_C": {
+    "slug": "uranium-fuel-rod-recipe",
+    "name": "Uranium Fuel Rod",
+    "craftTime": 150,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_UraniumCell_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_SteelPlateReinforced_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NuclearFuelRod_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_6_C": {
+    "slug": "magnetic-field-generator-recipe",
+    "name": "Magnetic Field Generator",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_2_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Battery_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_6_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_SloppyAlumina_C": {
+    "slug": "alternate-sloppy-alumina-recipe",
+    "name": "Alternate: Sloppy Alumina",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreBauxite_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminaSolution_C",
+        "quantity": 12
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_RadioControlSystem_C": {
+    "slug": "alternate-radio-control-system-recipe",
+    "name": "Alternate: Radio Control System",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 60
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PlutoniumFuelUnit_C": {
+    "slug": "alternate-plutonium-fuel-unit-recipe",
+    "name": "Alternate: Plutonium Fuel Unit",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PlutoniumCell_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_PressureConversionCube_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PlutoniumFuelRod_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_OCSupercomputer_C": {
+    "slug": "alternate-oc-supercomputer-recipe",
+    "name": "Alternate: OC Supercomputer",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_CoolingSystem_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ComputerSuper_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_HeatSink_C": {
+    "slug": "heat-sink-recipe",
+    "name": "Heat Sink",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumPlate_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumPlateReinforced_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_FusedModularFrame_C": {
+    "slug": "fused-modular-frame-recipe",
+    "name": "Fused Modular Frame",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_NitrogenGas_C",
+        "quantity": 25
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameFused_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_GasTank_C": {
+    "slug": "empty-fluid-tank-recipe",
+    "name": "Empty Fluid Tank",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GasTank_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PackagedNitrogen_C": {
+    "slug": "packaged-nitrogen-gas-recipe",
+    "name": "Packaged Nitrogen Gas",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NitrogenGas_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_GasTank_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PackagedNitrogenGas_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_UnpackageNitrogen_C": {
+    "slug": "unpackage-nitrogen-gas-recipe",
+    "name": "Unpackage Nitrogen Gas",
+    "craftTime": 1,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PackagedNitrogenGas_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NitrogenGas_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_GasTank_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Packager_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_InstantScrap_C": {
+    "slug": "alternate-instant-scrap-recipe",
+    "name": "Alternate: Instant Scrap",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreBauxite_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumScrap_C",
+        "quantity": 30
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_InstantPlutoniumCell_C": {
+    "slug": "alternate-instant-plutonium-cell-recipe",
+    "name": "Alternate: Instant Plutonium Cell",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NonFissibleUranium_C",
+        "quantity": 150
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PlutoniumCell_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_HadronCollider_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_HeatFusedFrame_C": {
+    "slug": "alternate-heat-fused-frame-recipe",
+    "name": "Alternate: Heat-Fused Frame",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_NitricAcid_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameFused_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_FertileUranium_C": {
+    "slug": "alternate-fertile-uranium-recipe",
+    "name": "Alternate: Fertile Uranium",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreUranium_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_NuclearWaste_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_NitricAcid_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_SulfuricAcid_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NonFissibleUranium_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 8
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ElectricMotor_C": {
+    "slug": "alternate-electric-motor-recipe",
+    "name": "Alternate: Electric Motor",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_DilutedFuel_C": {
+    "slug": "alternate-diluted-fuel-recipe",
+    "name": "Alternate: Diluted Fuel",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CoolingDevice_C": {
+    "slug": "alternate-cooling-device-recipe",
+    "name": "Alternate: Cooling Device",
+    "craftTime": 32,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumPlateReinforced_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_NitrogenGas_C",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CoolingSystem_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ClassicBattery_C": {
+    "slug": "alternate-classic-battery-recipe",
+    "name": "Alternate: Classic Battery",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_AluminumPlate_C",
+        "quantity": 7
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Battery_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_AutomatedMiner_C": {
+    "slug": "alternate-automated-miner-recipe",
+    "name": "Alternate: Automated Miner",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PortableMiner_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_AlcladCasing_C": {
+    "slug": "alternate-alclad-casing-recipe",
+    "name": "Alternate: Alclad Casing",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumIngot_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 15
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Wire_2_C": {
+    "slug": "alternate-caterium-wire-recipe",
+    "name": "Alternate: Caterium Wire",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 8
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Wire_1_C": {
+    "slug": "alternate-iron-wire-recipe",
+    "name": "Alternate: Iron Wire",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 9
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_UraniumCell_1_C": {
+    "slug": "alternate-infused-uranium-cell-recipe",
+    "name": "Alternate: Infused Uranium Cell",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreUranium_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 15
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_UraniumCell_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_IngotCaterium_C": {
+    "slug": "caterium-ingot-recipe",
+    "name": "Caterium Ingot",
+    "craftTime": 4,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreGold_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_SmelterMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_TurboMotor_1_C": {
+    "slug": "alternate-turbo-electric-motor-recipe",
+    "name": "Alternate: Turbo Electric Motor",
+    "craftTime": 64,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 7
+      },
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 9
+      },
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 7
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_MotorLightweight_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_MotorTurbo_C": {
+    "slug": "turbo-motor-recipe",
+    "name": "Turbo Motor",
+    "craftTime": 32,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CoolingSystem_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 24
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_MotorLightweight_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceElevatorPart_8_C": {
+    "slug": "thermal-propulsion-rocket-recipe",
+    "name": "Thermal Propulsion Rocket",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_4_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_MotorLightweight_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_CoolingSystem_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_ModularFrameFused_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpaceElevatorPart_8_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Turbofuel_C": {
+    "slug": "turbofuel-recipe",
+    "name": "Turbofuel",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_CompactedCoal_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_LiquidTurboFuel_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Stator_C": {
+    "slug": "alternate-quickwire-stator-recipe",
+    "name": "Alternate: Quickwire Stator",
+    "craftTime": 15,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 15
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Silica_C": {
+    "slug": "alternate-cheap-silica-recipe",
+    "name": "Alternate: Cheap Silica",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_RawQuartz_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Stone_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 7
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Screw_2_C": {
+    "slug": "alternate-steel-screw-recipe",
+    "name": "Alternate: Steel Screw",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 52
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Screw_C": {
+    "slug": "alternate-cast-screw-recipe",
+    "name": "Alternate: Cast Screw",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Rotor_C": {
+    "slug": "alternate-steel-rotor-recipe",
+    "name": "Alternate: Steel Rotor",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_EncasedIndustrialBeam_C": {
+    "slug": "alternate-encased-industrial-pipe-recipe",
+    "name": "Alternate: Encased Industrial Pipe",
+    "craftTime": 15,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 7
+      },
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelPlateReinforced_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ReinforcedIronPlate_2_C": {
+    "slug": "alternate-stitched-iron-plate-recipe",
+    "name": "Alternate: Stitched Iron Plate",
+    "craftTime": 32,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ReinforcedIronPlate_1_C": {
+    "slug": "alternate-bolted-iron-plate-recipe",
+    "name": "Alternate: Bolted Iron Plate",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 18
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 50
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_RadioControlUnit_1_C": {
+    "slug": "alternate-radio-connection-unit-recipe",
+    "name": "Alternate: Radio Connection Unit",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumPlateReinforced_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_QuartzCrystal_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameLightweight_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Quickwire_C": {
+    "slug": "alternate-fused-quickwire-recipe",
+    "name": "Alternate: Fused Quickwire",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 12
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Plastic_1_C": {
+    "slug": "alternate-recycled-plastic-recipe",
+    "name": "Alternate: Recycled Plastic",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_LiquidFuel_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 12
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_NuclearFuelRod_1_C": {
+    "slug": "alternate-uranium-fuel-unit-recipe",
+    "name": "Alternate: Uranium Fuel Unit",
+    "craftTime": 300,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_UraniumCell_C",
+        "quantity": 100
+      },
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Beacon_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NuclearFuelRod_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Motor_1_C": {
+    "slug": "alternate-rigour-motor-recipe",
+    "name": "Alternate: Rigour Motor",
+    "craftTime": 48,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 6
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ModularFrame_C": {
+    "slug": "alternate-steeled-frame-recipe",
+    "name": "Alternate: Steeled Frame",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_IngotSteel_2_C": {
+    "slug": "alternate-compacted-steel-ingot-recipe",
+    "name": "Alternate: Compacted Steel Ingot",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_CompactedCoal_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_IngotSteel_1_C": {
+    "slug": "alternate-solid-steel-ingot-recipe",
+    "name": "Alternate: Solid Steel Ingot",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SteelIngot_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_IngotIron_C": {
+    "slug": "alternate-iron-alloy-ingot-recipe",
+    "name": "Alternate: Iron Alloy Ingot",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreIron_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_OreCopper_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_HighSpeedConnector_C": {
+    "slug": "alternate-silicon-high-speed-connector-recipe",
+    "name": "Alternate: Silicon High-Speed Connector",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 60
+      },
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ModularFrameHeavy_C": {
+    "slug": "alternate-heavy-encased-frame-recipe",
+    "name": "Alternate: Heavy Encased Frame",
+    "craftTime": 64,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_SteelPlateReinforced_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 36
+      },
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 22
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_HeatSink_1_C": {
+    "slug": "alternate-heat-exchanger-recipe",
+    "name": "Alternate: Heat Exchanger",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AluminumPlateReinforced_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Gunpowder_1_C": {
+    "slug": "alternate-fine-black-powder-recipe",
+    "name": "Alternate: Fine Black Powder",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_CompactedCoal_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Gunpowder_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_ElectromagneticControlRod_1_C": {
+    "slug": "alternate-electromagnetic-connection-rod-recipe",
+    "name": "Alternate: Electromagnetic Connection Rod",
+    "craftTime": 15,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stator_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ElectromagneticControlRod_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CrystalOscillator_C": {
+    "slug": "alternate-insulated-crystal-oscillator-recipe",
+    "name": "Alternate: Insulated Crystal Oscillator",
+    "craftTime": 32,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_QuartzCrystal_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 7
+      },
+      {
+        "itemClass": "Desc_CircuitBoardHighSpeed_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Concrete_C": {
+    "slug": "alternate-fine-concrete-recipe",
+    "name": "Alternate: Fine Concrete",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Stone_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Computer_2_C": {
+    "slug": "alternate-crystal-computer-recipe",
+    "name": "Alternate: Crystal Computer",
+    "craftTime": 64,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 3
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Computer_1_C": {
+    "slug": "alternate-caterium-computer-recipe",
+    "name": "Alternate: Caterium Computer",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 7
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 28
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CircuitBoard_2_C": {
+    "slug": "alternate-caterium-circuit-board-recipe",
+    "name": "Alternate: Caterium Circuit Board",
+    "craftTime": 48,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 30
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 7
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_CircuitBoard_1_C": {
+    "slug": "alternate-silicon-circuit-board-recipe",
+    "name": "Alternate: Silicon Circuit Board",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 11
+      },
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 11
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Cable_2_C": {
+    "slug": "alternate-quickwire-cable-recipe",
+    "name": "Alternate: Quickwire Cable",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 11
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Cable_1_C": {
+    "slug": "alternate-insulated-cable-recipe",
+    "name": "Alternate: Insulated Cable",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 9
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_Beacon_1_C": {
+    "slug": "alternate-crystal-beacon-recipe",
+    "name": "Alternate: Crystal Beacon",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 16
+      },
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Beacon_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Hoverpack_C": {
+    "slug": "hover-pack-recipe",
+    "name": "Hover Pack",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_ModularFrameHeavy_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Computer_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_AluminumPlate_C",
+        "quantity": 40
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HoverPack_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_FilterHazmat_C": {
+    "slug": "iodine-infused-filter-recipe",
+    "name": "Iodine Infused Filter",
+    "craftTime": 16,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Filter_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 8
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HazmatFilter_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_HazmatSuit_C": {
+    "slug": "hazmat-suit-recipe",
+    "name": "Hazmat Suit",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_AluminumPlate_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_Fabric_C",
+        "quantity": 50
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HazmatSuit_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_FilterGasMask_C": {
+    "slug": "gas-filter-recipe",
+    "name": "Gas Filter",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Fabric_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Filter_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Gasmask_C": {
+    "slug": "gas-mask-recipe",
+    "name": "Gas Mask",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 100
+      },
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 100
+      },
+      {
+        "itemClass": "Desc_Fabric_C",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Gasmask_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_JetPack_C": {
+    "slug": "jetpack-recipe",
+    "name": "Jetpack",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Plastic_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 50
+      },
+      {
+        "itemClass": "Desc_CircuitBoard_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_JetPack_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_XenoBasher_C": {
+    "slug": "xeno-basher-recipe",
+    "name": "Xeno-Basher",
+    "craftTime": 80,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_ShockShank_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 500
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_StunSpear_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Biofuel_C": {
+    "slug": "solid-biofuel-recipe",
+    "name": "Solid Biofuel",
+    "craftTime": 4,
+    "manualCraftMultiplier": 5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 8
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Biofuel_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Chainsaw_C": {
+    "slug": "chainsaw-recipe",
+    "name": "Chainsaw",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 160
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 15
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Chainsaw_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Beacon_C": {
+    "slug": "beacon-recipe",
+    "name": "Beacon",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Beacon_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_ObjectScanner_C": {
+    "slug": "object-scanner-recipe",
+    "name": "Object Scanner",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 50
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ObjectScanner_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Protein_Stinger_C": {
+    "slug": "stinger-protein-recipe",
+    "name": "Stinger Protein",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_StingerParts_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Protein_Spitter_C": {
+    "slug": "spitter-protein-recipe",
+    "name": "Spitter Protein",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpitterParts_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Protein_Hog_C": {
+    "slug": "hog-protein-recipe",
+    "name": "Hog Protein",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HogParts_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Protein_Crab_C": {
+    "slug": "hatcher-protein-recipe",
+    "name": "Hatcher Protein",
+    "craftTime": 3,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_HatcherParts_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_AlienDNACapsule_C": {
+    "slug": "alien-dna-capsule-recipe",
+    "name": "Alien DNA Capsule",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_AlienDNACapsule_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Biomass_AlienProtein_C": {
+    "slug": "biomass-alien-protein-recipe",
+    "name": "Biomass (Alien Protein)",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 100
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_MedicinalInhalerAlienOrgans_C": {
+    "slug": "protein-inhaler-recipe",
+    "name": "Protein Inhaler",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Nut_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Medkit_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_SpikedRebar_C": {
+    "slug": "iron-rebar-recipe",
+    "name": "Iron Rebar",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SpikedRebar_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_RebarGun_C": {
+    "slug": "rebar-gun-recipe",
+    "name": "Rebar Gun",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 16
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 100
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_RebarGunProjectile_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_CartridgeSmart_C": {
+    "slug": "homing-rifle-ammo-recipe",
+    "name": "Homing Rifle Ammo",
+    "craftTime": 24,
+    "manualCraftMultiplier": 0.666667,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CartridgeStandard_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_HighSpeedConnector_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CartridgeSmartProjectile_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_BladeRunners_C": {
+    "slug": "blade-runners-recipe",
+    "name": "Blade Runners",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Silica_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_ModularFrame_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_JumpingStilts_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Rebar_Stunshot_C": {
+    "slug": "stun-rebar-recipe",
+    "name": "Stun Rebar",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpikedRebar_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rebar_Stunshot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_ZipLine_C": {
+    "slug": "zipline-recipe",
+    "name": "Zipline",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ShockShank_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 30
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_ZipLine_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Quickwire_C": {
+    "slug": "quickwire-recipe",
+    "name": "Quickwire",
+    "craftTime": 5,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_HighSpeedWire_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_NobeliskGas_C": {
+    "slug": "gas-nobelisk-recipe",
+    "name": "Gas Nobelisk",
+    "craftTime": 12,
+    "manualCraftMultiplier": 0.666667,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NobeliskExplosive_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NobeliskGas_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_TherapeuticInhaler_C": {
+    "slug": "therapeutic-inhaler-recipe",
+    "name": "Therapeutic Inhaler",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Mycelia_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_AlienProtein_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Shroom_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Medkit_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_MedicinalInhaler_C": {
+    "slug": "vitamin-inhaler-recipe",
+    "name": "Vitamin Inhaler",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Mycelia_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Berry_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Medkit_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Parachute_C": {
+    "slug": "parachute-recipe",
+    "name": "Parachute",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Fabric_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Parachute_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Alternate_PolyesterFabric_C": {
+    "slug": "alternate-polyester-fabric-recipe",
+    "name": "Alternate: Polyester Fabric",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": true,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_PolymerResin_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Water_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fabric_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Fabric_C": {
+    "slug": "fabric-recipe",
+    "name": "Fabric",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Mycelia_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fabric_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Biomass_Mycelia_C": {
+    "slug": "biomass-mycelia-recipe",
+    "name": "Biomass (Mycelia)",
+    "craftTime": 4,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Mycelia_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 10
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_NutritionalInhaler_C": {
+    "slug": "nutritional-inhaler-recipe",
+    "name": "Nutritional Inhaler",
+    "craftTime": 20,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Shroom_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Berry_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Nut_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Medkit_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_PowerCrystalShard_3_C": {
+    "slug": "power-shard-5-recipe",
+    "name": "Power Shard (5)",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Crystal_mk3_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CrystalShard_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PowerCrystalShard_2_C": {
+    "slug": "power-shard-2-recipe",
+    "name": "Power Shard (2)",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Crystal_mk2_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CrystalShard_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PowerCrystalShard_1_C": {
+    "slug": "power-shard-1-recipe",
+    "name": "Power Shard (1)",
+    "craftTime": 8,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Crystal_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CrystalShard_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_NobeliskShockwave_C": {
+    "slug": "pulse-nobelisk-recipe",
+    "name": "Pulse Nobelisk",
+    "craftTime": 60,
+    "manualCraftMultiplier": 0.666666,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NobeliskExplosive_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_CrystalOscillator_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NobeliskShockwave_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Rebar_Spreadshot_C": {
+    "slug": "shatter-rebar-recipe",
+    "name": "Shatter Rebar",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpikedRebar_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_QuartzCrystal_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rebar_Spreadshot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_CartridgeChaos_Packaged_C": {
+    "slug": "turbo-rifle-ammo-packaged-recipe",
+    "name": "Turbo Rifle Ammo",
+    "craftTime": 12,
+    "manualCraftMultiplier": 3.333333,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CartridgeStandard_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_TurboFuel_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CartridgeChaos_C",
+        "quantity": 50
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_CartridgeChaos_C": {
+    "slug": "turbo-rifle-ammo-recipe",
+    "name": "Turbo Rifle Ammo",
+    "craftTime": 12,
+    "manualCraftMultiplier": 3.333333,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CartridgeStandard_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_AluminumCasing_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_LiquidTurboFuel_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CartridgeChaos_C",
+        "quantity": 50
+      }
+    ],
+    "producedIn": "Desc_Blender_C",
+    "event": "NONE"
+  },
+  "Recipe_NobeliskNuke_C": {
+    "slug": "nuke-nobelisk-recipe",
+    "name": "Nuke Nobelisk",
+    "craftTime": 120,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NobeliskExplosive_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_UraniumCell_C",
+        "quantity": 20
+      },
+      {
+        "itemClass": "Desc_GunpowderMK2_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_CircuitBoardHighSpeed_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NobeliskNuke_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Cartridge_C": {
+    "slug": "rifle-ammo-recipe",
+    "name": "Rifle Ammo",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperSheet_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_GunpowderMK2_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CartridgeStandard_C",
+        "quantity": 15
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Rebar_Explosive_C": {
+    "slug": "explosive-rebar-recipe",
+    "name": "Explosive Rebar",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_SpikedRebar_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_GunpowderMK2_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rebar_Explosive_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ManufacturerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_SpaceRifleMk1_C": {
+    "slug": "rifle-recipe",
+    "name": "Rifle",
+    "craftTime": 120,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Motor_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_Rubber_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 250
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Rifle_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_NobeliskCluster_C": {
+    "slug": "cluster-nobelisk-recipe",
+    "name": "Cluster Nobelisk",
+    "craftTime": 24,
+    "manualCraftMultiplier": 0.666667,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_NobeliskExplosive_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_GunpowderMK2_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NobeliskCluster_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Nobelisk_C": {
+    "slug": "nobelisk-recipe",
+    "name": "Nobelisk",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1.333333,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gunpowder_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_SteelPipe_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NobeliskExplosive_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_NobeliskDetonator_C": {
+    "slug": "nobelisk-detonator-recipe",
+    "name": "Nobelisk Detonator",
+    "craftTime": 80,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ObjectScanner_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_SteelPlate_C",
+        "quantity": 10
+      },
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 50
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_NobeliskDetonator_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_GunpowderMK2_C": {
+    "slug": "smokeless-powder-recipe",
+    "name": "Smokeless Powder",
+    "craftTime": 6,
+    "manualCraftMultiplier": 0.5,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gunpowder_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_HeavyOilResidue_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GunpowderMK2_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_OilRefinery_C",
+    "event": "NONE"
+  },
+  "Recipe_Gunpowder_C": {
+    "slug": "black-powder-recipe",
+    "name": "Black Powder",
+    "craftTime": 4,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Coal_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_Sulfur_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Gunpowder_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Snowball_C": {
+    "slug": "snowball-recipe",
+    "name": "Snowball",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Snow_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_SnowballProjectile_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasStar_C": {
+    "slug": "ficsmas-wonder-star-recipe",
+    "name": "FICSMAS Wonder Star",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasWreath_C",
+        "quantity": 5
+      },
+      {
+        "itemClass": "Desc_CandyCane_C",
+        "quantity": 20
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasStar_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasWreath_C": {
+    "slug": "ficsmas-decoration-recipe",
+    "name": "FICSMAS Decoration",
+    "craftTime": 60,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBranch_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_XmasBallCluster_C",
+        "quantity": 6
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasWreath_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBallCluster_C": {
+    "slug": "ficsmas-ornament-bundle-recipe",
+    "name": "FICSMAS Ornament Bundle",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBall3_C",
+        "quantity": 1
+      },
+      {
+        "itemClass": "Desc_XmasBall4_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBallCluster_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBall1_C": {
+    "slug": "red-ficsmas-ornament-recipe",
+    "name": "Red FICSMAS Ornament",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBall1_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_SmelterMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBall2_C": {
+    "slug": "blue-ficsmas-ornament-recipe",
+    "name": "Blue FICSMAS Ornament",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBall2_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_SmelterMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBall3_C": {
+    "slug": "copper-ficsmas-ornament-recipe",
+    "name": "Copper FICSMAS Ornament",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBall1_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBall3_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBall4_C": {
+    "slug": "iron-ficsmas-ornament-recipe",
+    "name": "Iron FICSMAS Ornament",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBall2_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_IronIngot_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBall4_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_FoundryMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_Snow_C": {
+    "slug": "actual-snow-recipe",
+    "name": "Actual Snow",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 5
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Snow_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBranch_C": {
+    "slug": "ficsmas-tree-branch-recipe",
+    "name": "FICSMAS Tree Branch",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBranch_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_XmasBow_C": {
+    "slug": "ficsmas-bow-recipe",
+    "name": "FICSMAS Bow",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_XmasBow_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_CandyCane_C": {
+    "slug": "candy-cane-recipe",
+    "name": "Candy Cane",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CandyCane_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "FICSMAS"
+  },
+  "Recipe_CandyCaneBasher_C": {
+    "slug": "candy-cane-basher-recipe",
+    "name": "Candy Cane Basher",
+    "craftTime": 80,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_ShockShank_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_CandyCane_C",
+        "quantity": 25
+      },
+      {
+        "itemClass": "Desc_Gift_C",
+        "quantity": 15
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CandyCane_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "FICSMAS"
+  },
+  "Recipe_FactoryCart_C": {
+    "slug": "factory-cart-recipe",
+    "name": "Factory Cart™",
+    "craftTime": 20,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GolfCart_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_GoldenCart_C": {
+    "slug": "golden-factory-cart-recipe",
+    "name": "Golden Factory Cart™",
+    "craftTime": 20,
+    "manualCraftMultiplier": 2,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_GoldIngot_C",
+        "quantity": 15
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_Rotor_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GolfCartGold_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Biomass_Leaves_C": {
+    "slug": "biomass-leaves-recipe",
+    "name": "Biomass (Leaves)",
+    "craftTime": 5,
+    "manualCraftMultiplier": 0.4,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Leaves_C",
+        "quantity": 10
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 5
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Biomass_Wood_C": {
+    "slug": "biomass-wood-recipe",
+    "name": "Biomass (Wood)",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Wood_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_GenericBiomass_C",
+        "quantity": 20
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_IronPlateReinforced_C": {
+    "slug": "reinforced-iron-plate-recipe",
+    "name": "Reinforced Iron Plate",
+    "craftTime": 12,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 12
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronPlateReinforced_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Concrete_C": {
+    "slug": "concrete-recipe",
+    "name": "Concrete",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Stone_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cement_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Screw_C": {
+    "slug": "screw-recipe",
+    "name": "Screw",
+    "craftTime": 6,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_IronScrew_C",
+        "quantity": 4
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Cable_C": {
+    "slug": "cable-recipe",
+    "name": "Cable",
+    "craftTime": 2,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Cable_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Wire_C": {
+    "slug": "wire-recipe",
+    "name": "Wire",
+    "craftTime": 4,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Wire_C",
+        "quantity": 2
+      }
+    ],
+    "producedIn": "Desc_ConstructorMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_IngotCopper_C": {
+    "slug": "copper-ingot-recipe",
+    "name": "Copper Ingot",
+    "craftTime": 2,
+    "manualCraftMultiplier": 3,
+    "isAlternate": false,
+    "handCraftable": true,
+    "workshopCraftable": false,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_OreCopper_C",
+        "quantity": 1
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_CopperIngot_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_SmelterMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_PortableMiner_C": {
+    "slug": "portable-miner-recipe",
+    "name": "Portable Miner",
+    "craftTime": 40,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": false,
+    "ingredients": [
+      {
+        "itemClass": "Desc_IronPlate_C",
+        "quantity": 2
+      },
+      {
+        "itemClass": "Desc_IronRod_C",
+        "quantity": 4
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_PortableMiner_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "",
+    "event": "NONE"
+  },
+  "Recipe_Fireworks_01_C": {
+    "slug": "sweet-fireworks-recipe",
+    "name": "Sweet Fireworks",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBranch_C",
+        "quantity": 6
+      },
+      {
+        "itemClass": "Desc_CandyCane_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fireworks_Projectile_01_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Fireworks_02_C": {
+    "slug": "fancy-fireworks-recipe",
+    "name": "Fancy Fireworks",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBranch_C",
+        "quantity": 4
+      },
+      {
+        "itemClass": "Desc_XmasBow_C",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fireworks_Projectile_02_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  },
+  "Recipe_Fireworks_03_C": {
+    "slug": "sparkly-fireworks-recipe",
+    "name": "Sparkly Fireworks",
+    "craftTime": 24,
+    "manualCraftMultiplier": 1,
+    "isAlternate": false,
+    "handCraftable": false,
+    "workshopCraftable": true,
+    "machineCraftable": true,
+    "ingredients": [
+      {
+        "itemClass": "Desc_XmasBranch_C",
+        "quantity": 3
+      },
+      {
+        "itemClass": "Desc_Snow_C",
+        "quantity": 2
+      }
+    ],
+    "products": [
+      {
+        "itemClass": "Desc_Fireworks_Projectile_03_C",
+        "quantity": 1
+      }
+    ],
+    "producedIn": "Desc_AssemblerMk1_C",
+    "event": "NONE"
+  }
+}
