@@ -74,7 +74,7 @@ class InvoicesApi {
     });
   }
 
-  getInvoice(request) {
+  getInvoice() {
     return Promise.resolve(deepCopy(invoice));
   }
 }

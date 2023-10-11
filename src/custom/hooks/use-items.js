@@ -26,6 +26,7 @@ const useSearch = (initialSearch) => {
       sortDir: 'asc',
       ...initialSearch,
     }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     []
   );
   const [search, setSearch] = useState(startingFilters);
@@ -197,18 +198,15 @@ export const useItems = (items, initialSearch) => {
   );
 
   // eslint-disable-next-line unused-imports/no-unused-vars
-  const handleTabsChange = useCallback(
-    (event, tab) => {
-      (event) => {
-        updateSearch((prevState) => ({
-          ...prevState,
-          tab: event.target.value,
-        }));
-      },
-        [updateSearch];
+  const handleTabsChange = useCallback(() => {
+    (event) => {
+      updateSearch((prevState) => ({
+        ...prevState,
+        tab: event.target.value,
+      }));
     },
-    [updateSearch]
-  );
+      [updateSearch];
+  }, [updateSearch]);
 
   const resetFilters = useCallback(() => {
     () => {

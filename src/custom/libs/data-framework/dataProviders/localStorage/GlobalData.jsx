@@ -3,6 +3,11 @@ import PropTypes from 'prop-types';
 import { useData } from '../../framework/useData';
 import { ActionType } from '../../framework/ActionType';
 
+/**
+ *
+ * @param key
+ * @param initialValue
+ */
 function useLocalStorage(key, initialValue) {
   // Get from local storage then
   // parse stored json or return initialValue

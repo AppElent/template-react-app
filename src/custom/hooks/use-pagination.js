@@ -97,10 +97,10 @@ export function paginationStateReducer(state, action) {
 
 /**
  *
- * @param root0
- * @param root0.totalItems
- * @param root0.initialPage
- * @param root0.initialPageSize
+ * @param {any} root0 object
+ * @param {any} root0.totalItems Total items number
+ * @param {any} root0.initialPage Initial set page
+ * @param {any} root0.initialPageSize Initial Page size
  * @returns {any} Return pagination object
  */
 export default function usePagination({ totalItems = 0, initialPage = 0, initialPageSize = 0 }) {

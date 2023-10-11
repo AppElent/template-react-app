@@ -3,11 +3,11 @@ import { deepCopy } from 'src/utils/deep-copy';
 import { companies, company } from './data';
 
 class JobsApi {
-  getCompanies(request = {}) {
+  getCompanies() {
     return Promise.resolve(deepCopy(companies));
   }
 
-  getCompany(request) {
+  getCompany() {
     return Promise.resolve(deepCopy(company));
   }
 }

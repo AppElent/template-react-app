@@ -137,7 +137,7 @@ const Page = () => {
   const formik = useFormik({
     initialValues: currentItem,
     enableReinitialize: true,
-    onSubmit: async (values, helpers) => {
+    onSubmit: async (values) => {
       console.log(values);
     },
   });

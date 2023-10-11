@@ -41,7 +41,7 @@ const Page = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const returnTo = searchParams.get('returnTo');
-  const { issuer, createUserWithEmailAndPassword, signInWithGoogle } = useAuth();
+  const { createUserWithEmailAndPassword, signInWithGoogle } = useAuth();
   const formik = useFormik({
     initialValues,
     validationSchema,

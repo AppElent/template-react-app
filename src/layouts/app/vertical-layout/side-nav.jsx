@@ -193,7 +193,7 @@ export const SideNav = (props) => {
                 borderWidth: 1,
                 display: 'flex',
                 height: 40,
-                p: '4px',
+                // p: '4px',
                 width: 40,
               }}
             >

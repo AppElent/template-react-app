@@ -39,7 +39,7 @@ const Page = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const returnTo = searchParams.get('returnTo');
-  const { issuer, signInWithEmailAndPassword, signInWithGoogle } = useAuth();
+  const { signInWithEmailAndPassword, signInWithGoogle } = useAuth();
   const formik = useFormik({
     initialValues,
     validationSchema,

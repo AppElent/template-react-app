@@ -1,7 +1,8 @@
 import { useCallback, useState } from 'react';
 
 /**
- *
+ * Use dialog hook
+ * @returns {any} object
  */
 export function useDialog() {
   const [state, setState] = useState({

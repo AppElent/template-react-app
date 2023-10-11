@@ -27,7 +27,7 @@ const categoryOptions = [
 ];
 
 export const JobCategoryStep = (props) => {
-  const { onBack, onNext, ...other } = props;
+  const { onNext, ...other } = props;
   const [category, setCategory] = useState(categoryOptions[1].value);
 
   const handleCategoryChange = useCallback((category) => {

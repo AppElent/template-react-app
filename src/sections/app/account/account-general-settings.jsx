@@ -27,7 +27,7 @@ export const AccountGeneralSettings = (props) => {
   const auth = getAuth();
 
   const { updatesettings, ...rest } = props;
-  const { avatar, email, name, user, settings } = rest;
+  const { avatar, email, name, settings } = rest;
   const initialValues = { ...settings };
   const [loglevel, setLoglevel] = useState(logger.level);
   const formik = useFormik({
@@ -66,7 +66,7 @@ export const AccountGeneralSettings = (props) => {
       }
     },
   });
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing] = useState(false);
 
   const generateRandomName = () => {
     const generatedName = generateName();

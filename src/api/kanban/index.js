@@ -11,7 +11,7 @@ const user = {
 };
 
 class KanbanApi {
-  getBoard(request = {}) {
+  getBoard() {
     return Promise.resolve(deepCopy(data.board));
   }
 

@@ -7,8 +7,6 @@ import { usePopover } from 'src/hooks/use-popover';
 
 import { ContactsPopover } from './contacts-popover';
 
-const now = new Date();
-
 const useContacts = () => {
   // return [
   //   {

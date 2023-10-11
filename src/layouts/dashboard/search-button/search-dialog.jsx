@@ -147,7 +147,7 @@ export const SearchDialog = (props) => {
                     borderWidth: 1,
                   }}
                 >
-                  {articles[type].map((article, index) => (
+                  {articles[type].map((article) => (
                     <Box
                       key={article.title}
                       sx={{ p: 2 }}

@@ -3,7 +3,7 @@ import { deepCopy } from 'src/utils/deep-copy';
 import { emails, labels } from './data';
 
 class MailApi {
-  getLabels(request) {
+  getLabels() {
     return Promise.resolve(deepCopy(labels));
   }
 

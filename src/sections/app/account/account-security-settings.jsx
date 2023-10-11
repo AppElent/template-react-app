@@ -8,7 +8,7 @@ import { useMounted } from 'src/hooks/use-mounted';
 import { CardDefault } from 'src/components/app/card-default';
 
 export const AccountSecuritySettings = (props) => {
-  const { loginEvents, updatePassword } = props;
+  const { updatePassword } = props;
   const translate = useTranslate();
   const isMounted = useMounted();
   // const [isEditing, setIsEditing] = useState(false);

@@ -51,7 +51,7 @@ class OrdersApi {
     });
   }
 
-  getOrder(request) {
+  getOrder() {
     return Promise.resolve(deepCopy(order));
   }
 }

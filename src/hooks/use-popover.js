@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from 'react';
 
 /**
- *
+ * @returns {any} popover object
  */
 export function usePopover() {
   const anchorRef = useRef(null);

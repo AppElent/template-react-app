@@ -3,7 +3,7 @@ import { gtm } from 'src/libs/gtm';
 
 /**
  *
- * @param config
+ * @param {any} config config
  */
 export function useAnalytics(config) {
   useEffect(() => {

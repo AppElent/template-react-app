@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 /**
  * use LocalStorage hook. Optionally use session storage
@@ -12,7 +12,7 @@ function useLocalStorage(key, initialValue, type = 'localStorage') {
     throw 'Only localStorage and sessionStorage are allowed values';
   // Get from local storage then
   // parse stored json or return initialValue
-  const readValue = () => {
+  const readValue = useCallback(() => {
     // Prevent build error "window is undefined" but keep keep working
     if (typeof window === 'undefined') {
       return initialValue;
@@ -25,7 +25,7 @@ function useLocalStorage(key, initialValue, type = 'localStorage') {
       console.warn(`Error reading localStorage key “${key}”:`, error);
       return initialValue;
     }
-  };
+  }, []);
 
   // State to store our value
   // Pass initial state function to useState so logic is only executed once

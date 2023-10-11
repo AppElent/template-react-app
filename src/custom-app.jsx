@@ -6,13 +6,11 @@ import { logger, setLogger } from 'src/custom/libs/logging';
 import Refine from 'src/custom/libs/refine';
 import { useHttpsRedirect } from 'src/custom/hooks/use-https-redirect';
 import useLocalStorage from './custom/hooks/use-local-storage';
-import { DataFramework, useData } from './custom/libs/data-framework';
-import { collection, where } from 'firebase/firestore';
+import { DataFramework } from './custom/libs/data-framework';
+import { collection } from 'firebase/firestore';
 import { db } from './libs/firebase';
-import { getAuth } from 'firebase/auth';
 import { useRouter } from './hooks/use-router';
 import { useEffect } from 'react';
-import { ActionType } from './custom/libs/data-framework/framework/ActionType';
 import { ConfirmProvider } from 'material-ui-confirm';
 
 const CustomApp = ({ children }) => {
