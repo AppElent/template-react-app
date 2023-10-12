@@ -49,13 +49,6 @@ const CustomApp = ({ children }) => {
   // set resources for data framework
   const resources = [
     {
-      name: 'dummy01',
-      options: {
-        collection: collection(db, 'dummy'),
-        dataProviderName: 'firestore',
-      },
-    },
-    {
       name: 'testdocument',
       options: {
         collection: collection(db, 'dummy'),
