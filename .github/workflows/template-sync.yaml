@@ -1,0 +1,24 @@
+# File: .github/workflows/template-sync.yml
+name: Template sync
+
+on:
+    # cronjob trigger
+  #schedule:
+  #- cron:  "0 0 1 * *"
+  # manual trigger
+  workflow_dispatch:
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      # To use this repository's private action, you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@v1.1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repo_path: AppElent/template-react-app
+          upstream_branch: ${{ github.ref_name }} # defaults to main
+          pr_labels: template-update # optional, no default
