@@ -81,14 +81,6 @@ const CustomApp = ({ children }) => {
       },
     },
     {
-      name: 'teststate3',
-      loadData: true,
-      options: {
-        type: 'string',
-        dataProviderName: 'state',
-      },
-    },
-    {
       name: 'user_settings',
       key: 'user_settings',
       loadData: true,
