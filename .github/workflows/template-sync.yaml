@@ -20,5 +20,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: AppElent/template-react-app
-          upstream_branch: ${{ github.ref_name }} # defaults to main
+          upstream_branch: ${{ github.head_ref || github.ref_name }} # defaults to main
           pr_labels: template-update # optional, no default
